@@ -1,0 +1,133 @@
+/* General styles */
+.containers {
+    padding: 20px;
+    max-width: 1200px;
+background-color:rgb(26, 33, 48);
+color: rgb(16, 16, 17);
+  }
+  
+
+  
+  .about-us {
+    font-size: 3em;
+    font-weight: bold;
+ 
+      color: rgb(99, 189, 214);
+      border: 1px solid rgb(99, 214, 212);
+      padding: 8px;
+
+  }
+  
+  .title-2 {
+
+    font-size: 2em;
+    color: aliceblue;
+    margin-top: 20px;
+    
+    
+  }
+ 
+  .description {
+    font-size: 60px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
+  }
+  .features{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: rgb(231, 182, 255);
+    
+  }
+  .service-button-1 {
+    padding: 20px;
+    font-size: 1em;
+    cursor: pointer;
+    color: rgb(99, 189, 214);
+    background-color: transparent;
+    border: 2px solid beige;
+   text-decoration: none;
+      box-shadow: 5px 2px 10px #13a8b68a;
+  }
+  .service-button{
+    text-decoration: none;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+    button {
+      color: rgb(99, 189, 214);
+      border: 1px solid rgb(99, 214, 212);
+    }
+    .about-us {
+      font-size: 10px;
+      text-decoration: none;
+      color: rgb(99, 189, 214);
+      border: 1px solid rgb(99, 214, 212);
+      
+     
+    }
+    h2 .title-1{
+      font-size: 30px;
+    }
+  
+    .title {
+     
+      font-size: 20px;
+      color: rgb(214, 99, 214);
+      border: 1px solid rgb(214, 99, 214);
+      padding: 8px;
+      
+    }
+  
+    .description{
+      font-size: 0.9em;
+      color: rgb(28, 28, 29);
+    }
+  
+    .service-button{
+      padding: 20px;
+        font-size: 0.9em;
+        color: rgb(99, 189, 214);
+        border: 1px solid rgb(99, 214, 212);
+        text-decoration: none;
+        background-color: transparent;
+    }
+   
+  }
+  
+  @media (max-width: 480px) {
+    .about-us {
+      font-size: 20px;
+      color: rgb(99, 189, 214);
+      border: 1px solid rgb(99, 214, 212);
+      padding: 8px;
+      
+    }
+  
+    h2 .title-1 {
+      font-size: 20px;
+      
+    }
+  
+    .description {
+      font-size:20px;
+      color: rgb(142, 140, 142);
+    }
+  .features{
+    font-size: 15px;
+    text-decoration: none;
+    
+   color: rgb(231, 182, 255);
+  }
+    .service-button {
+      padding: 10px;
+        font-size: 0.9em;
+        color: rgb(99, 189, 214);
+      border: 1px solid rgb(99, 214, 212);
+    }
+  }

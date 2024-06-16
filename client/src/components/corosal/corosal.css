@@ -1,0 +1,36 @@
+.title{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 60px;
+   
+}
+.title-1{
+  font-size: 30px;
+}
+
+.button-container {
+    margin-top: 10px;
+  }
+  
+  .sub-title {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #dc87eab3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .sub-title:hover {
+    background-color: #0056b3;
+  }
+
+.corol{
+    filter: blur(7px);
+  -webkit-filter: blur(2px);
+}

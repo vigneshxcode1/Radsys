@@ -1,0 +1,160 @@
+.container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styling for the image */
+  .callimg {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the title */
+  .title {
+ 
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #333;
+  }
+  
+  /* Styling for the paragraph */
+  .title-p {
+    font-size: 1.2rem;
+    color: rgb(253, 75, 253);
+    margin-bottom: 20px;
+    max-width: 800px;
+    margin-right: 10px;
+  }
+  
+  /* Styling for the button */
+  .service-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Button hover effect */
+  .service-button:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+   #title{
+    font-size: 30px;
+   }
+    .h1-title{
+        color: white;
+        background-color: palevioletred;
+        
+    }
+    .about-us-contacts{
+      
+padding: 10px;
+      color: rgb(99, 189, 214);
+      background-color: transparent;
+     font-size: 25px;
+     border: 1px solid rgb(51, 184, 237);
+box-shadow: 2px 5px 8px rgba(83, 220, 238, 0.407);
+
+
+    }
+    .title {
+      font-size: 2rem;
+      color: rgb(0, 0, 0);
+      
+    }
+   
+    .title-p {
+      font-size:20px;
+      color: rgb(120, 120, 120);
+      margin-top: 20px;
+      margin-left: 10px;
+     
+    }
+  
+    .service-button-1 {
+        padding: 8px 16px;
+        font-size: 0.9em;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: none;
+        
+       
+    }
+    .whatsappimg{
+      width: 50px;
+      height: 50px;
+      margin-right: 100px;
+     
+    }
+    .instagramimg{
+      width: 60px;
+    margin-top: -4px;
+      margin-right: 10px;
+     
+      
+    
+    }
+
+  .contactlink{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+  }
+  .icon{
+    width: 50px;
+    filter: drop-shadow(rgba(20, 237, 226, 0.319) 0px 8px 7px)
+  }
+
+  #instagram{
+    filter: drop-shadow(rgba(237, 20, 172, 0.568) 0px 8px 7px)
+  }
+  #whatsapp{
+    filter: drop-shadow(rgba(19, 228, 85, 0.548) 0px 8px 7px)
+  }
+  #phone{
+    filter: drop-shadow(rgba(19, 172, 228, 0.56) 0px 8px 7px)
+
+  }
+  #gmail{
+    filter: drop-shadow(rgba(240, 73, 73, 0.579) 0px 8px 7px)
+
+  }
+  }
+  
+  /* Responsive styling for very small screens */
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.5rem;
+    }
+    
+    .title-p {
+      font-size: 0.9rem;
+      
+      
+    }
+  
+    .service-button {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      color: rgb(99, 189, 214);
+      background-color: transparent;
+      border: 1px solid rgb(61, 204, 230);
+
+    }
+
+  }
