@@ -6,8 +6,11 @@
     font-size: 60px;
    
 }
-.title-1{
+.title-header{
   font-size: 30px;
+  font-weight: 800;
+
+  color: black;
 }
 
 .button-container {

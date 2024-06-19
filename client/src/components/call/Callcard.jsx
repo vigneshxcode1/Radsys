@@ -1,5 +1,6 @@
 import React from "react";
-import callcardimg from "../../assets/images/callimg.jpg";
+import callcardimg from "../../assets/illustration/callcardimg.jpg";
+
 import whatsappimg from "../../assets/images/whatsapp.png"
 import instagramimg from "../../assets/images/instagram.png"
 import phoneimg from "../../assets/images/phoneimg.png"

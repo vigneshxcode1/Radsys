@@ -2,12 +2,15 @@ import React from 'react'
 import "./works.css"
 import workimg from "../../assets/images/callimg.jpg"
 
+
+
 const Work = () => {
   return (
     <div className='container-work'>
       <div className='title-container'>
         <span className='title-work'>Overview of Our Work </span>
-        <p className='title-1'>We develop custom online shopping applications tailored specifically for you.</p>
+        
+        <h1 className='title-1'> online shopping applications.</h1>
         <div className='img-container'>
           <img  src={workimg}
           className='img-1'></img>
@@ -19,7 +22,7 @@ const Work = () => {
   
       <div className='title-container'>
        
-        <p className='title-1'>We develop custom online shopping applications tailored specifically for you.</p>
+      <h1 className='title-1'> online shopping applications.</h1>
         <div className='img-container'>
           <img  src={workimg}
           className='img-1'></img>
@@ -31,7 +34,7 @@ const Work = () => {
 
       <div className='title-container'>
        
-        <p className='title-1'>We develop custom online shopping applications tailored specifically for you.</p>
+      <h1 className='title-1'> online shopping applications.</h1>
         <div className='img-container'>
           <img  src={workimg}
           className='img-1'></img>
@@ -43,7 +46,7 @@ const Work = () => {
 
       <div className='title-container'>
        
-       <p className='title-1'>We develop custom online shopping applications tailored specifically for you.</p>
+      <h1 className='title-1'> online shopping applications.</h1>
        <div className='img-container'>
          <img  src={workimg}
          className='img-1'></img>
