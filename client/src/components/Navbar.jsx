@@ -4,9 +4,18 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import socialmediaimg from '../assets/images/social-media.gif'
 import "./navbar.css"
+import gsap from 'gsap';
+import { useEffect } from 'react';
+
 function CollapsibleExample() {
+  useEffect(()=>{
+    gsap.fromTo("#navbar",
+    { y: -100, opacity: 0 },  
+    { y: 0, opacity: 1, duration: 2, ease: 'power1.out' }
+    )
+  },[])
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+    <Navbar collapseOnSelect expand="lg" id="navbar" className="bg-body-tertiary">
       <Container>
       <Navbar.Brand href="/"><img src={socialmediaimg} className='socimg'></img></Navbar.Brand>
         <Navbar.Brand href="/">RADSYS</Navbar.Brand>

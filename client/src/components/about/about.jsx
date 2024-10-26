@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './about.css'; 
 import { Link } from "react-router-dom";
+import gsap from 'gsap';
 
 const About = () => {
+
+  useEffect(()=>{
+
+    gsap.fromTo(".containers",
+    {x:-300 , opacity:0},{x:0,opacity:1,duration:2,ease:"power1.in"})
+  },[])
+
   return (
     <div className="containers">
       <div className="main">
-        <Link className="about-us"  to={"/about"}>About Us</Link>
+        <Link className="about-us"  to={"/about"}>About </Link>
         <h2 className="title-2">Web Development for Business Service</h2>
         <p className="description">
           At our company, we specialize in delivering top-notch web development services tailored to elevate your business. Our expert team is dedicated to creating custom websites that not only look great but also perform seamlessly. Here's what we offer:

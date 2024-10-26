@@ -12,7 +12,6 @@ const Home = () => {
       <Navbar/>
     <Corosal/>
     <About/>
-    //why u choose
     <Work/>
     <Stack/>
     <Callcard/>

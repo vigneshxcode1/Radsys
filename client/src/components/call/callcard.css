@@ -104,8 +104,8 @@ box-shadow: 2px 5px 8px rgba(83, 220, 238, 0.407);
        
     }
     .whatsappimg{
-      width: 50px;
-      height: 50px;
+      width: 10px;
+      height: 10px;
       margin-right: 100px;
      
     }
@@ -145,6 +145,7 @@ box-shadow: 2px 5px 8px rgba(83, 220, 238, 0.407);
   }
   }
   
+  
   /* Responsive styling for very small screens */
   @media (max-width: 480px) {
     .title {
@@ -167,3 +168,100 @@ box-shadow: 2px 5px 8px rgba(83, 220, 238, 0.407);
     }
 
   }
+  /* callcard.css */
+
+/* Base styles for both mobile and desktop */
+.container-main {
+  padding: 20px;              /* Default padding */
+  max-width: 1200px;         /* Maximum width for larger screens */
+  margin: 0 auto;            /* Center the container */
+  text-align: center;         /* Center align text */
+}
+
+.about-us-contacts {
+  font-size: 24px;           /* Base font size */
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.callimg {
+  width: 100%;               /* Responsive image */
+  max-width: 600px;         /* Maximum width on larger screens */
+  height: auto;              /* Maintain aspect ratio */
+  border-radius: 10px;       /* Optional: Add border radius */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.title-1 {
+  font-size: 28px;           /* Title font size */
+  margin: 20px 0;
+}
+
+.title-p {
+  font-size: 16px;           /* Paragraph font size */
+  line-height: 1.5;          /* Improved readability */
+  margin: 10px 0;
+}
+
+.contactlink {
+  display: flex;             /* Use flexbox for icons */
+  justify-content: center;   /* Center icons */
+  margin-top: 20px;         /* Margin above icons */
+  flex-wrap: wrap;          /* Allow wrapping on smaller screens */
+}
+
+.icon {
+  width: 40px;              /* Icon size */
+  height: 40px;             /* Maintain aspect ratio */
+  margin: 0 10px;           /* Space between icons */
+  cursor: pointer;          /* Pointer cursor on hover */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.icon:hover {
+  transform: scale(1.1);    /* Slightly enlarge on hover */
+}
+
+/* Styles specifically for desktop */
+@media (min-width: 769px) {
+  .about-us-contacts {
+    font-size: 32px;         /* Larger font size for desktop */
+  }
+
+  .callimg {
+    max-width: 800px;        /* Larger max width for images */
+  }
+
+  .title-1 {
+    font-size: 36px;         /* Larger title font size for desktop */
+  }
+
+  .title-p {
+    font-size: 18px;         /* Larger paragraph font size */
+  }
+
+  .icon {
+    width: 50px;             /* Larger icon size */
+    height: 50px;            /* Maintain aspect ratio */
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .about-us-contacts {
+    font-size: 20px;         /* Smaller font size on mobile */
+  }
+
+  .title-1 {
+    font-size: 24px;         /* Smaller title font size */
+  }
+
+  .title-p {
+    font-size: 14px;         /* Smaller paragraph font size */
+  }
+
+  .icon {
+    width: 30px;             /* Smaller icon size on mobile */
+    height: 30px;            /* Maintain aspect ratio */
+  }
+}

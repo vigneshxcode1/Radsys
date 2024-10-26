@@ -1,4 +1,16 @@
 /* General desktop styles */
+/* works.css */
+
+
+
+.title-container {
+  opacity: 0;  /* Start hidden */
+  transform: translateY(50px);  /* Move down initially */
+  transition: opacity 0.5s, transform 0.5s;  /* Smooth transition */
+}
+
+/* Other styles as needed */
+
 .container-work {
     width: 80%;
     background-image: url("../../assets/illustration/workbackground1.gif");

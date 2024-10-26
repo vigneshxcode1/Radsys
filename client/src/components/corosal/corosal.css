@@ -36,4 +36,5 @@
 .corol{
     filter: blur(7px);
   -webkit-filter: blur(2px);
+  position: relative;
 }

@@ -1,10 +1,44 @@
-.copyrights{
-    color: aliceblue;
-    text-align: center;
-    
-}
-.foot-container{
-    margin-top: 40px;
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-}
+/* footer.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .foot-container {
+    background-color: #282c34; /* Dark background */
+    color: white;              /* White text */
+    padding: 20px;             /* Padding for the footer */
+    width: 100%;               /* Full width */
+    position: relative;        /* Relative positioning */
+    bottom: 0;                 /* Align at the bottom */
+    left: 0;                   /* Align to the left */
+    text-align: center;        /* Center text */
+  }
+  
+  .footer-main {
+    display: flex;             /* Use flexbox for alignment */
+    justify-content: center;   /* Center content */
+    align-items: center;       /* Center items vertically */
+  }
+  
+  .copyrights {
+    margin: 0;                 /* Remove default margin */
+    font-size: 16px;           /* Font size for the copyright text */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .copyrights {
+      font-size: 14px;         /* Smaller font size for mobile */
+      padding: 10px;           /* Add padding for touch devices */
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .copyrights {
+      font-size: 18px;         /* Larger font size for desktop */
+      padding: 20px;           /* Add padding for desktop */
+    }
+  }
+  
